@@ -62,7 +62,6 @@ menv deactivate
 ```
 menv run start
 ```
-i
 In menv.json
 ```
     "scripts": {

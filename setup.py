@@ -2,13 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     version="0.0.2",
-    # ...
     packages=find_packages(
         where='src',
         include=['main']
     ),
     package_dir={"": "src"},
-    # ...
     install_requires=[
         'virtualenv',
     ],
@@ -24,8 +22,7 @@ setup(
     long_description_content_type='text/markdown',
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Operating System :: Windows",
     ],
     url='https://github.com/JuanMolina2001/menv',
     python_requires='>=3.6',
