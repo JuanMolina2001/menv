@@ -19,6 +19,8 @@ menv provides the following commands:
 - `menv deactivate`: Deactivate the virtual environment.
 - `menv save`: Save the current requirements to a `menv.json` file.
 - `menv start`: Install the saved requirements. Use the `--force` flag to ignore Python version mismatch.
+- `menv run`: Run scripts of menv.json
+
 
 Please note that menv currently only supports Windows operating system.
 
@@ -54,6 +56,18 @@ menv save
 
 ```
 menv deactivate
+```
+
+6. Run scripts
+```
+menv run start
+```
+i
+In menv.json
+```
+    "scripts": {
+        "start": "python app.py"
+    }
 ```
 
 That's it! You can now use menv to manage your virtual environments and install Python packages.

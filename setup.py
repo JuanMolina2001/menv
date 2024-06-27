@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    version="0.0.1",
+    version="0.0.2",
     # ...
     packages=find_packages(
         where='src',
@@ -27,6 +27,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    url='https://github.com/JuanMolina2001/menv',
     python_requires='>=3.6',
     platforms=['win32'],
 )
