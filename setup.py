@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    version="0.0.2",
+    version="0.0.3",
     packages=find_packages(
         where='src',
         include=['main']
@@ -22,7 +22,7 @@ setup(
     long_description_content_type='text/markdown',
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Operating System :: Windows",
+        "Operating System :: Microsoft :: Windows",
     ],
     url='https://github.com/JuanMolina2001/menv',
     python_requires='>=3.6',
